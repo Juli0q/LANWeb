@@ -18,18 +18,7 @@
 
 
 <style>
-    .background {
-        background: rgba(0, 0, 0, 0.4)
-    }
-    h1 {
-        @apply text-4xl text-center pb-5 text-white;
-        font-family: firaSans;
-    }
     .discord-login-button {
         @apply bg-[#5865F2] rounded-md p-3;
-    }
-    @font-face{
-        font-family: 'firaSans';
-        src: url('/font/FiraSans-Medium.ttf') format('woff');
     }
 </style>
