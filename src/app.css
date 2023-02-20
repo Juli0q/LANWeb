@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background {
+    background: rgba(0, 0, 0, 0.4)
+}
+
+.bg-error {
+    background: rgba(255, 0, 0, 0.4)
+}
+
+@font-face{
+    font-family: 'firaSans';
+    src: url('/font/FiraSans-Medium.ttf') format('woff');
+}
+
+h1 {
+    @apply text-4xl text-center pb-5 text-white;
+    font-family: firaSans;
+}
+
+.bg-box {
+    @apply h-fit w-fit p-4 rounded-md backdrop-blur-sm drop-shadow-2xl;
+}

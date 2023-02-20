@@ -14,6 +14,8 @@
 	"devDependencies": {
 		"@iconify/icons-ic": "^1.2.13",
 		"@iconify/icons-mdi": "^1.2.41",
+		"@iconify/icons-pepicons-print": "^1.2.3",
+		"@iconify/icons-uim": "^1.2.4",
 		"@iconify/svelte": "^3.1.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
